@@ -1,0 +1,51 @@
+* {
+	--pBgColor: blue;
+	--pTextColor: #000;
+	--pLinkTextColor: #fff;
+	--activeLinkColor: #000;
+	--lightGray: rgba(128, 128, 128, 0.712);
+}
+
+#header {
+	width: 100vw;
+	margin-bottom: 25rem;
+}
+
+#navbar {
+	width: 400px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	color: var(--pLinkTextColor);
+}
+
+#navbar a.active {
+	color: var(--activeLinkColor);
+}
+
+a button {
+	background: var(--pBgColor);
+	text-align: center;
+	width: 12rem;
+}
+
+#productsNav {
+	width: 700px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+::placeholder {
+	color: var(--lightGray);
+}
+
+input {
+  margin-top: 30rem;
+  width: 600px;
+  height: 80px;
+}
